@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=%F0%9F%91%8B+Hola%2C+soy+Marouan;%F0%9F%93%B1+Estudiante+de+DAM+en+INS+Marianao;%F0%9F%A4%96+Android+%7C+Kotlin+%7C+Java;%F0%9F%8C%90+Web+%7C+PHP+%7C+MySQL;%F0%9F%9A%80+Buscando+pr%C3%A1cticas+de+DAM" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=%F0%9F%91%8B+Hola%2C+soy+Marouan;%F0%9F%93%B1+Estudiante+de+DAM+en+INS+Marianao;%F0%9F%A4%96+Android+%7C+Kotlin+%7C+Java;%F0%9F%8C%90+Web+%7C+PHP+%7C+MySQL;%F0%9F%A7%A0+Decidir+qu%C3%A9+construir+tambi%C3%A9n+es+programar" alt="Typing SVG" />
   </a>
 </p>
 
@@ -14,6 +14,10 @@
   <a href="https://linkedin.com/in/marouan-sanhaji-79922335b"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://github.com/marouan-sh"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <img src="https://komarev.com/ghpvc/?username=marouan-sh&color=3b82f6&style=for-the-badge&label=VISITAS" />
+</p>
+
+<p align="center">
+  <i>"El código lo puede escribir cualquiera; entender qué problema resuelve y para quién, eso es lo que hace a un desarrollador."</i>
 </p>
 
 ---
@@ -26,15 +30,17 @@ data class Marouan(
     val centro: String = "INS Marianao",
     val ubicacion: String = "Barcelona, España 🇪🇸",
     val idiomas: List<String> = listOf("Español", "Árabe", "Inglés", "Francés"),
-    val aprendiendo: List<String> = listOf("Jetpack Compose", "Bases de datos NoSQL", "Buenas prácticas"),
-    val buscando: String = "Prácticas de Desarrollo de Aplicaciones Multiplataforma"
+    val filosofia: List<String> = listOf(
+        "Menos copiar y pegar, más entender por qué funciona",
+        "Si no lo entiendo, no lo subo"
+    )
 )
 ```
 
 - 📱 Me gusta crear apps **Android** con **Kotlin** y proyectos web completos
 - 🗄️ Trabajo con bases de datos **SQL** y **MongoDB**
-- 🐧 Me muevo bien con **Linux**, **Windows** y máquinas virtuales
-- 🤝 Abierto a prácticas y colaboraciones — ¡escríbeme por LinkedIn!
+- 🐧 Fan de **Linux** y ex fan de **Windows** (aún le guardo cariño), y me apaño bien con máquinas virtuales
+- 🤖 *La IA no te quita el trabajo; te lo quita quien sabe usarla mejor que tú.*
 
 ---
 
@@ -54,7 +60,7 @@ data class Marouan(
   <tr>
     <td width="50%" valign="top">
       <h3>📅 Agendaino</h3>
-      <p>Agenda escolar por asignaturas para mi clase de DAM: tareas, apuntes, exámenes con temario y avisos al móvil.</p>
+      <p>Agenda escolar por asignaturas para mi clase de DAM: tareas, apuntes, exámenes con temario y avisos al móvil. La desarrollé con vibe coding junto a una IA para aprender a usarla de forma responsable: decidir, revisar, probar y proteger los datos.</p>
       <a href="https://agendaino.netlify.app"><img src="https://img.shields.io/badge/Ver%20demo-3B82F6?style=flat-square&logo=netlify&logoColor=white" /></a>
     </td>
     <td width="50%" valign="top">
