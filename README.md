@@ -1,107 +1,63 @@
-<!-- Banner animado -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:3b82f6&height=200&section=header&text=Marouan%20Sanhaji&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Desarrollador%20Multiplataforma%20Junior&descAlignY=58&descSize=18" alt="banner" />
+  <img src="assets/header.svg" width="100%" alt="Marouan Sanhaji · Desarrollador de Aplicaciones Multiplataforma" />
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=%F0%9F%91%8B+Hola%2C+soy+Marouan;%F0%9F%93%B1+Estudiante+de+DAM+en+INS+Marianao;%F0%9F%A4%96+Android+%7C+Kotlin+%7C+Java;%F0%9F%8C%90+Web+%7C+PHP+%7C+MySQL;%F0%9F%A7%A0+Decidir+qu%C3%A9+construir+tambi%C3%A9n+es+programar" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=93C5FD&center=true&vCenter=true&width=620&lines=Estudiante+de+DAM+en+INS+Marianao;Android+%C2%B7+Kotlin+%C2%B7+Java;Web+%C2%B7+PHP+%C2%B7+MySQL;Decidir+qu%C3%A9+construir+tambi%C3%A9n+es+programar" alt="Texto animado" />
 </p>
 
 <p align="center">
-  <a href="https://portfoliomarouan.netlify.app"><img src="https://img.shields.io/badge/Portfolio-3B82F6?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/marouan-sanhaji-79922335b"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/marouan-sh"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <img src="https://komarev.com/ghpvc/?username=marouan-sh&color=3b82f6&style=for-the-badge&label=VISITAS" />
+  <a href="https://portfoliomarouan.netlify.app"><img src="assets/btn-portfolio.svg" width="32%" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/marouan-sanhaji-79922335b"><img src="assets/btn-linkedin.svg" width="32%" alt="LinkedIn" /></a>
+  <a href="https://github.com/marouan-sh"><img src="assets/btn-github.svg" width="32%" alt="GitHub" /></a>
 </p>
 
 <p align="center">
   <i>"El código lo puede escribir cualquiera; entender qué problema resuelve y para quién, eso es lo que hace a un desarrollador."</i>
 </p>
 
----
-
 ## 🧑‍💻 Sobre mí
 
-```kotlin
-data class Marouan(
-    val rol: String = "Estudiante de CFGS DAM",
-    val centro: String = "INS Marianao",
-    val ubicacion: String = "Barcelona, España 🇪🇸",
-    val idiomas: List<String> = listOf("Español", "Árabe", "Inglés", "Francés"),
-    val filosofia: List<String> = listOf(
-        "Menos copiar y pegar, más entender por qué funciona",
-        "Si no lo entiendo, no lo subo"
-    )
-)
-```
+<p align="center">
+  <img src="assets/about.svg" width="100%" alt="data class Marouan" />
+</p>
 
 - 📱 Me gusta crear apps **Android** con **Kotlin** y proyectos web completos
 - 🗄️ Trabajo con bases de datos **SQL** y **MongoDB**
 - 🐧 Fan de **Linux** y ex fan de **Windows** (aún le guardo cariño), y me apaño bien con máquinas virtuales
-- 🤖 *La IA no te quita el trabajo; te lo quita quien sabe usarla mejor que tú.*
 
----
+<p align="center">
+  <img src="assets/quote.svg" width="100%" alt="La IA no te quita el trabajo; te lo quita quien sabe usarla mejor que tú." />
+</p>
 
 ## 🛠️ Tecnologías
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,java,php,mysql,mongodb,html,css,js&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,java,php,mysql,mongodb,html,css,js&theme=dark&perline=9" />
   <br/>
-  <img src="https://skillicons.dev/icons?i=git,github,figma,linux,windows,vscode,idea,netlify&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=git,github,figma,linux,windows,vscode,idea,netlify&theme=dark&perline=8" />
 </p>
-
----
 
 ## 🚀 Proyectos destacados
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📅 Agendaino</h3>
-      <p>Agenda escolar por asignaturas para mi clase de DAM: tareas, apuntes, exámenes con temario y avisos al móvil. La desarrollé con vibe coding junto a una IA para aprender a usarla de forma responsable: decidir, revisar, probar y proteger los datos.</p>
-      <a href="https://agendaino.netlify.app"><img src="https://img.shields.io/badge/Ver%20demo-3B82F6?style=flat-square&logo=netlify&logoColor=white" /></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🌐 Portfolio personal</h3>
-      <p>Mi web personal con diseño <i>liquid glass</i>, hecha con HTML, CSS y JavaScript.</p>
-      <a href="https://portfoliomarouan.netlify.app"><img src="https://img.shields.io/badge/Ver%20web-3B82F6?style=flat-square&logo=googlechrome&logoColor=white" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🏊 Fatherpiscinas</h3>
-      <p>Web para un negocio de instalación de piscinas y jardines.</p>
-      <a href="https://fatherpiscinas.es"><img src="https://img.shields.io/badge/Ver%20web-3B82F6?style=flat-square&logo=googlechrome&logoColor=white" /></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🔧 AutoFix <sub>(en curso)</sub></h3>
-      <p>Proyecto en equipo de DAM 2: aplicación de gestión de talleres mecánicos.</p>
-      <img src="https://img.shields.io/badge/Estado-En%20desarrollo-f59e0b?style=flat-square" />
-    </td>
-  </tr>
-</table>
-
----
+<p align="center">
+  <a href="https://agendaino.netlify.app"><img src="assets/card-agendaino.svg" width="49%" alt="Agendaino" /></a>
+  <a href="https://portfoliomarouan.netlify.app"><img src="assets/card-portfolio.svg" width="49%" alt="Portfolio" /></a>
+  <a href="https://fatherpiscinas.es"><img src="assets/card-piscinas.svg" width="49%" alt="Fatherpiscinas" /></a>
+  <img src="assets/card-autofix.svg" width="49%" alt="AutoFix" />
+</p>
 
 ## 📊 Estadísticas
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=marouan-sh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=3b82f6&icon_color=3b82f6&locale=es" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marouan-sh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=3b82f6&locale=es" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=marouan-sh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=93c5fd&icon_color=3b82f6&text_color=cbd5e1&locale=es" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marouan-sh&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=93c5fd&text_color=cbd5e1&locale=es" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=marouan-sh&theme=tokyonight&hide_border=true&background=0f172a&ring=3b82f6&fire=3b82f6&currStreakLabel=3b82f6&locale=es" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=marouan-sh&bg_color=0b1120&color=94a3b8&line=3b82f6&point=ffffff&area=true&area_color=3b82f6&hide_border=true&radius=16" />
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=marouan-sh&bg_color=0f172a&color=94a3b8&line=3b82f6&point=ffffff&area=true&hide_border=true" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,50:1e3a8a,100:0f172a&height=120&section=footer" />
+  <img src="assets/footer.svg" width="100%" alt="Si no lo entiendo, no lo subo." />
 </p>
