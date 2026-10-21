@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="84" viewBox="0 0 300 84">
+<defs>
+  <style>
+  .b1{animation:m1 14s ease-in-out infinite alternate}
+  .b2{animation:m2 17s ease-in-out infinite alternate}
+  .b3{animation:m3 12s ease-in-out infinite alternate}
+  .b4{animation:m4 19s ease-in-out infinite alternate}
+  @keyframes m1{to{transform:translate(40px,20px)}}
+  @keyframes m2{to{transform:translate(-40px,-30px)}}
+  @keyframes m3{to{transform:translate(-30px,20px)}}
+  @keyframes m4{to{transform:translate(30px,-20px)}}
+</style>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="22"/></filter>
+  <filter id="frost" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="34"/></filter>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity=".45"/></filter>
+  <clipPath id="frame"><rect width="300" height="84" rx="22"/></clipPath>
+  <clipPath id="pane"><rect x="6" y="6" width="288" height="72" rx="22"/></clipPath>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+    <stop offset=".35" stop-color="#fff" stop-opacity=".12"/>
+    <stop offset=".7" stop-color="#fff" stop-opacity=".05"/>
+    <stop offset="1" stop-color="#93c5fd" stop-opacity=".35"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".16"/>
+    <stop offset=".45" stop-color="#fff" stop-opacity=".04"/>
+    <stop offset="1" stop-color="#fff" stop-opacity=".02"/>
+  </linearGradient>
+  <radialGradient id="spec" cx=".22" cy="0" r=".7">
+    <stop offset="0" stop-color="#fff" stop-opacity=".22"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<g clip-path="url(#frame)">
+  <rect width="300" height="84" fill="#0b1120"/>
+  <g filter="url(#soft)" opacity=".85">
+    <circle class="b1" cx="54.0" cy="25.2" r="46.2" fill="#2563eb"/>
+    <circle class="b2" cx="245.99999999999997" cy="63.0" r="42.0" fill="#06b6d4"/>
+    <circle class="b3" cx="165.0" cy="4.2" r="35.28" fill="#6366f1"/>
+    <circle class="b4" cx="120.0" cy="84.0" r="29.4" fill="#64748b"/></g>
+  <rect x="6" y="6" width="288" height="72" rx="22" fill="#0b1120" opacity=".25" filter="url(#shadow)"/>
+  <g clip-path="url(#pane)">
+    <rect x="6" y="6" width="288" height="72" fill="#0b1120"/>
+    <g filter="url(#frost)" opacity=".95">
+    <circle class="b1" cx="54.0" cy="25.2" r="46.2" fill="#2563eb"/>
+    <circle class="b2" cx="245.99999999999997" cy="63.0" r="42.0" fill="#06b6d4"/>
+    <circle class="b3" cx="165.0" cy="4.2" r="35.28" fill="#6366f1"/>
+    <circle class="b4" cx="120.0" cy="84.0" r="29.4" fill="#64748b"/></g>
+    <rect x="6" y="6" width="288" height="72" fill="url(#sheen)"/>
+    <rect x="6" y="6" width="288" height="72" fill="url(#spec)"/>
+  </g>
+  <rect x="6.75" y="6.75" width="286.5" height="70.5" rx="22" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+  
+  <circle cx="44" cy="42" r="18" fill="#0a66c2" fill-opacity=".9"/>
+  <circle cx="44" cy="42" r="18" fill="none" stroke="#fff" stroke-opacity=".5"/>
+  <path d="M37 42 h14 M45 36 l6 6 -6 6" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="78" y="39" font-family="'Segoe UI', 'SF Pro Display', -apple-system, Inter, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff">LinkedIn</text>
+  <text x="78" y="61" font-family="'Segoe UI', 'SF Pro Display', -apple-system, Inter, Helvetica, Arial, sans-serif" font-size="13.5" fill="#cbd5e1">Conectemos</text>
+</g>
+</svg>
