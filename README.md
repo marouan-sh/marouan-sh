@@ -1,63 +1,83 @@
-<p align="center">
-  <img src="assets/header.svg" width="100%" alt="Marouan Sanhaji · Desarrollador de Aplicaciones Multiplataforma" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=93C5FD&center=true&vCenter=true&width=620&lines=Estudiante+de+DAM+en+INS+Marianao;Android+%C2%B7+Kotlin+%C2%B7+Java;Web+%C2%B7+PHP+%C2%B7+MySQL;Decidir+qu%C3%A9+construir+tambi%C3%A9n+es+programar" alt="Texto animado" />
-</p>
+# Hola, soy Marouan 👋
 
-<p align="center">
-  <a href="https://portfoliomarouan.netlify.app"><img src="assets/btn-portfolio.svg" width="32%" alt="Portfolio" /></a>
-  <a href="https://linkedin.com/in/marouan-sanhaji-79922335b"><img src="assets/btn-linkedin.svg" width="32%" alt="LinkedIn" /></a>
-  <a href="https://github.com/marouan-sh"><img src="assets/btn-github.svg" width="32%" alt="GitHub" /></a>
-</p>
+**Desarrollador de Aplicaciones Multiplataforma** · Estudiante de CFGS DAM en INS Marianao · Barcelona
 
-<p align="center">
-  <i>"El código lo puede escribir cualquiera; entender qué problema resuelve y para quién, eso es lo que hace a un desarrollador."</i>
-</p>
+[![Portfolio](https://img.shields.io/badge/Portfolio-0f172a?style=flat-square&logo=googlechrome&logoColor=white)](https://portfoliomarouan.netlify.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/marouan-sanhaji-79922335b)
+[![Email](https://img.shields.io/badge/Email-334155?style=flat-square&logo=gmail&logoColor=white)](mailto:sanhajimarouan@gmail.com)
 
-## 🧑‍💻 Sobre mí
+</div>
 
-<p align="center">
-  <img src="assets/about.svg" width="100%" alt="data class Marouan" />
-</p>
+---
 
-- 📱 Me gusta crear apps **Android** con **Kotlin** y proyectos web completos
-- 🗄️ Trabajo con bases de datos **SQL** y **MongoDB**
-- 🐧 Fan de **Linux** y ex fan de **Windows** (aún le guardo cariño), y me apaño bien con máquinas virtuales
+### Sobre mí
 
-<p align="center">
-  <img src="assets/quote.svg" width="100%" alt="La IA no te quita el trabajo; te lo quita quien sabe usarla mejor que tú." />
-</p>
+Me gusta construir aplicaciones que la gente use de verdad: apps **Android** con **Kotlin**, webs completas y todo lo que hay detrás, desde la base de datos hasta el despliegue.
 
-## 🛠️ Tecnologías
+> *"El código lo puede escribir cualquiera; entender qué problema resuelve y para quién, eso es lo que hace a un desarrollador."*
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,java,php,mysql,mongodb,html,css,js&theme=dark&perline=9" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=git,github,figma,linux,windows,vscode,idea,netlify&theme=dark&perline=8" />
-</p>
+```kotlin
+data class Marouan(
+    val rol: String = "Estudiante de CFGS DAM",
+    val idiomas: List<String> = listOf("Español", "Árabe", "Inglés", "Francés"),
+    val filosofia: List<String> = listOf(
+        "Menos copiar y pegar, más entender por qué funciona",
+        "Si no lo entiendo, no lo subo"
+    )
+)
+```
 
-## 🚀 Proyectos destacados
+- 📱 Desarrollo apps **Android** con **Kotlin** y **Java**
+- 🌐 Hago proyectos web con **PHP**, **JavaScript** y bases de datos **SQL** y **MongoDB**
+- 🐧 Fan de **Linux** y ex fan de **Windows** (aún le guardo cariño)
+- 🤖 *La IA no te quita el trabajo; te lo quita quien sabe usarla mejor que tú.*
 
-<p align="center">
-  <a href="https://agendaino.netlify.app"><img src="assets/card-agendaino.svg" width="49%" alt="Agendaino" /></a>
-  <a href="https://portfoliomarouan.netlify.app"><img src="assets/card-portfolio.svg" width="49%" alt="Portfolio" /></a>
-  <a href="https://fatherpiscinas.es"><img src="assets/card-piscinas.svg" width="49%" alt="Fatherpiscinas" /></a>
-  <img src="assets/card-autofix.svg" width="49%" alt="AutoFix" />
-</p>
+---
 
-## 📊 Estadísticas
+### Proyectos destacados
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=marouan-sh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=93c5fd&icon_color=3b82f6&text_color=cbd5e1&locale=es" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marouan-sh&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=93c5fd&text_color=cbd5e1&locale=es" />
-</p>
+| Proyecto | Descripción | Tecnologías |
+| :-- | :-- | :-- |
+| 📅 **[Agendaino](https://agendaino.netlify.app)** | Agenda escolar por asignaturas para mi clase de DAM: tareas, apuntes, exámenes con temario y avisos al móvil. Hecha con vibe coding junto a una IA. | JavaScript · Vite · Supabase · PWA |
+| 🌐 **[Portfolio](https://portfoliomarouan.netlify.app)** | Mi web personal con diseño *liquid glass*, modo claro/oscuro y paleta de colores personalizable. | HTML · CSS · JavaScript |
+| 🏊 **[Fatherpiscinas](https://fatherpiscinas.es)** | Web para un negocio real de instalación de piscinas y jardines. | Web · Dominio propio |
+| 🔧 **AutoFix** | Proyecto en equipo de DAM 2: gestión de talleres mecánicos con app para mecánicos, app para clientes y backend. *En desarrollo.* | Kotlin · Android · Backend |
 
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=marouan-sh&bg_color=0b1120&color=94a3b8&line=3b82f6&point=ffffff&area=true&area_color=3b82f6&hide_border=true&radius=16" />
-</p>
+---
 
-<p align="center">
-  <img src="assets/footer.svg" width="100%" alt="Si no lo entiendo, no lo subo." />
-</p>
+### Tecnologías
+
+**Lenguajes**
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+**Móvil**
+![Android](https://img.shields.io/badge/Android-34A853?style=flat-square&logo=android&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white)
+
+**Bases de datos**
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+
+**Herramientas**
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
+
+---
+
+<div align="center">
+
+**Si no lo entiendo, no lo subo.**
+
+</div>
